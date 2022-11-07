@@ -1,0 +1,20 @@
+git status
+
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+git status
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        "\320\270\321\202\320\276\320\263\320\276\320\262\321\213\320\271_\320\276\321\202\321\207\321\221\321\202.txt"     
+
+git add README.md
+git add .
