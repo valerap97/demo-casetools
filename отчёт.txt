@@ -1,1 +1,19 @@
+Ссылка на репозиторий: casetools (https://github.com/HopeJesus55/casetools.git)
 
+Текущие ветки: 
+1) main:
+2)fixing-docs:
+3)test-branch
+
+Список команд: 
+git clone - клонирование репозитория
+git --version - версия git
+git add . - добавить все изменённые + созданные файлы для коммита
+git commit - совершение коммита (ключ -m для сообщения)
+git push - загрузить изменения в репозиторий
+git status - статус репозитория (изменённые/добавленные файлы, ожидание слияния ветук и прочее)
+git chechout -b [name] - создание ветки
+git chechout main - переход на основную ветку
+git push -u origin или git push --set-upstream origin - загрузить изменение ветки в репозиторий
+git diff main - сравнение с текущей ветки с main
+git log - отчёт обо всех коммитах
