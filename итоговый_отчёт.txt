@@ -18,3 +18,6 @@ Untracked files:
 
 git add README.md
 git add .
+
+git checkout
+git branch
