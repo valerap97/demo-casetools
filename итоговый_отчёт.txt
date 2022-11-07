@@ -18,3 +18,17 @@ Untracked files:
 
 git add README.md
 git add .
+
+Changes to be committed:
+        modified:   README.md
+        new file:   "\320\270\321\202\320\276\320\263\320\276\320\262\321\213\320\271_\320\276\321\202\321\207\321\221\321\202.txt"
+
+git commit -m "Update отчёт and README" -m "Добавление отчёта и обновления описания программы для подробности"
+
+Counting objects: 100% (6/6), done.        ion(-)
+Compressing objects: 100% (4/4), done.     76\320\263\320\276\320\262\321\213\320\271_\320\276\321\202\321\207\321\221\321\202.
+Writing objects: 100% (4/4), 962 bytes | 481.00 KiB/s, done.                          \demo-repo\demo-casetools> git push
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/valerap97/demo-casetools.git
+   8816b9b..3271f74  main -> main          1.00 KiB/s, done.
+
