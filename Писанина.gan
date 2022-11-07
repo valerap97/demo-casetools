@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Написание рассказа" company="РД продакшн" webLink="http://" view-date="2022-09-19" view-index="0" gantt-divider-location="218" resource-divider-location="300" version="3.2.3230" locale="ru_RU">
+    <description/>
+    <view zooming-state="default:6" id="gantt-chart">
+        <field id="tpd3" name="Название" width="116" order="0"/>
+        <field id="tpd4" name="Дата начала" width="44" order="1"/>
+        <field id="tpd5" name="Дата окончания" width="42" order="2"/>
+        <option id="taskLabelUp" value="resources"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="color.recent">
+            <![CDATA[#000000 #3333ff #ffcc99 #00cc66 #ffff33 #ff0000]]>
+        </option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Имя" width="210" order="0"/>
+        <field id="1" name="Стандартная роль" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars base-id="ru">
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="true"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+        <date year="" month="1" date="1" type="HOLIDAY">
+            <![CDATA[Новый Год]]>
+        </date>
+        <date year="" month="1" date="7" type="HOLIDAY">
+            <![CDATA[Рождество Христово]]>
+        </date>
+        <date year="" month="2" date="23" type="HOLIDAY">
+            <![CDATA[День Защитника Отечества]]>
+        </date>
+        <date year="" month="3" date="8" type="HOLIDAY">
+            <![CDATA[Международный женский день]]>
+        </date>
+        <date year="" month="5" date="1" type="HOLIDAY">
+            <![CDATA[Праздник Весны и Труда]]>
+        </date>
+        <date year="" month="5" date="9" type="HOLIDAY">
+            <![CDATA[День Победы]]>
+        </date>
+        <date year="" month="6" date="12" type="HOLIDAY">
+            <![CDATA[День России]]>
+        </date>
+        <date year="" month="11" date="4" type="HOLIDAY">
+            <![CDATA[День народного единства]]>
+        </date>
+        <date year="2021" month="1" date="2" type="HOLIDAY"/>
+        <date year="2021" month="1" date="3" type="HOLIDAY"/>
+        <date year="2021" month="1" date="4" type="HOLIDAY"/>
+        <date year="2021" month="1" date="5" type="HOLIDAY"/>
+        <date year="2021" month="1" date="6" type="HOLIDAY"/>
+        <date year="2021" month="1" date="8" type="HOLIDAY"/>
+        <date year="2021" month="1" date="9" type="HOLIDAY"/>
+        <date year="2021" month="1" date="10" type="HOLIDAY"/>
+        <date year="2021" month="2" date="20" type="WORKING_DAY"/>
+        <date year="2021" month="2" date="22" type="HOLIDAY"/>
+        <date year="2021" month="11" date="5" type="HOLIDAY"/>
+        <date year="2021" month="12" date="31" type="HOLIDAY"/>
+        <date year="2020" month="1" date="2" type="HOLIDAY">
+            <![CDATA[Новогодние каникулы]]>
+        </date>
+        <date year="2020" month="1" date="3" type="HOLIDAY">
+            <![CDATA[Новогодние каникулы]]>
+        </date>
+        <date year="2020" month="1" date="4" type="HOLIDAY">
+            <![CDATA[Новогодние каникулы]]>
+        </date>
+        <date year="2020" month="1" date="5" type="HOLIDAY">
+            <![CDATA[Новогодние каникулы]]>
+        </date>
+        <date year="2020" month="1" date="6" type="HOLIDAY">
+            <![CDATA[Новогодние каникулы]]>
+        </date>
+        <date year="2020" month="1" date="8" type="HOLIDAY">
+            <![CDATA[Новогодние каникулы]]>
+        </date>
+        <date year="2020" month="2" date="24" type="HOLIDAY">
+            <![CDATA[Перенесённый выходной (с 23 февраля)]]>
+        </date>
+        <date year="2020" month="3" date="9" type="HOLIDAY">
+            <![CDATA[Перенесённый выходной (с 8 марта)]]>
+        </date>
+        <date year="2020" month="5" date="4" type="HOLIDAY">
+            <![CDATA[Перенесённый выходной (с 4 января)]]>
+        </date>
+        <date year="2020" month="5" date="5" type="HOLIDAY">
+            <![CDATA[Перенесённый выходной (с 5 января)]]>
+        </date>
+        <date year="2019" month="1" date="2" type="HOLIDAY">
+            <![CDATA[Новогодние каникулы]]>
+        </date>
+        <date year="2019" month="1" date="3" type="HOLIDAY">
+            <![CDATA[Новогодние каникулы]]>
+        </date>
+        <date year="2019" month="1" date="4" type="HOLIDAY">
+            <![CDATA[Новогодние каникулы]]>
+        </date>
+        <date year="2019" month="1" date="8" type="HOLIDAY">
+            <![CDATA[Новогодние каникулы]]>
+        </date>
+        <date year="2019" month="5" date="2" type="HOLIDAY">
+            <![CDATA[Перенесённый выходной (с 5 января)]]>
+        </date>
+        <date year="2019" month="5" date="3" type="HOLIDAY">
+            <![CDATA[Перенесённый выходной (с 6 января)]]>
+        </date>
+        <date year="2019" month="5" date="10" type="HOLIDAY">
+            <![CDATA[Перенесённый выходной (с 23 февраля)]]>
+        </date>
+        <date year="2015" month="1" date="2" type="HOLIDAY">
+            <![CDATA[Новогодние каникулы]]>
+        </date>
+        <date year="2015" month="1" date="3" type="HOLIDAY">
+            <![CDATA[Новогодние каникулы]]>
+        </date>
+        <date year="2015" month="1" date="4" type="HOLIDAY">
+            <![CDATA[Новогодние каникулы]]>
+        </date>
+        <date year="2015" month="1" date="5" type="HOLIDAY">
+            <![CDATA[Новогодние каникулы]]>
+        </date>
+        <date year="2015" month="1" date="6" type="HOLIDAY">
+            <![CDATA[Новогодние каникулы]]>
+        </date>
+        <date year="2015" month="1" date="8" type="HOLIDAY">
+            <![CDATA[Новогодние каникулы]]>
+        </date>
+        <date year="2015" month="1" date="9" type="HOLIDAY">
+            <![CDATA[Перенесённый выходной (3 января)]]>
+        </date>
+        <date year="2015" month="5" date="4" type="HOLIDAY">
+            <![CDATA[Перенесённый выходной (4 января)]]>
+        </date>
+        <date year="2016" month="1" date="2" type="HOLIDAY">
+            <![CDATA[Новогодние каникулы]]>
+        </date>
+        <date year="2016" month="1" date="3" type="HOLIDAY">
+            <![CDATA[Новогодние каникулы]]>
+        </date>
+        <date year="2016" month="1" date="4" type="HOLIDAY">
+            <![CDATA[Новогодние каникулы]]>
+        </date>
+        <date year="2016" month="1" date="5" type="HOLIDAY">
+            <![CDATA[Новогодние каникулы]]>
+        </date>
+        <date year="2016" month="1" date="6" type="HOLIDAY">
+            <![CDATA[Новогодние каникулы]]>
+        </date>
+        <date year="2016" month="1" date="8" type="HOLIDAY">
+            <![CDATA[Новогодние каникулы]]>
+        </date>
+        <date year="2016" month="2" date="20" type="WORKING_DAY">
+            <![CDATA[Выходной перенесен на 2016-02-22]]>
+        </date>
+        <date year="2016" month="2" date="22" type="HOLIDAY">
+            <![CDATA[Перенесённый выходной (20 февраля)]]>
+        </date>
+        <date year="2016" month="3" date="7" type="HOLIDAY">
+            <![CDATA[Перенесённый выходной (3 января)]]>
+        </date>
+        <date year="2016" month="5" date="2" type="HOLIDAY">
+            <![CDATA[Перенесённый выходной (1 мая)]]>
+        </date>
+        <date year="2016" month="5" date="3" type="HOLIDAY">
+            <![CDATA[Перенесённый выходной (2 января)]]>
+        </date>
+        <date year="2016" month="6" date="13" type="HOLIDAY">
+            <![CDATA[Перенесённый выходной (12 июня)]]>
+        </date>
+        <date year="2017" month="1" date="2" type="HOLIDAY">
+            <![CDATA[Новогодние каникулы]]>
+        </date>
+        <date year="2017" month="1" date="3" type="HOLIDAY">
+            <![CDATA[Новогодние каникулы]]>
+        </date>
+        <date year="2017" month="1" date="4" type="HOLIDAY">
+            <![CDATA[Новогодние каникулы]]>
+        </date>
+        <date year="2017" month="1" date="5" type="HOLIDAY">
+            <![CDATA[Новогодние каникулы]]>
+        </date>
+        <date year="2017" month="1" date="6" type="HOLIDAY">
+            <![CDATA[Новогодние каникулы]]>
+        </date>
+        <date year="2017" month="1" date="8" type="HOLIDAY">
+            <![CDATA[Новогодние каникулы]]>
+        </date>
+        <date year="2017" month="2" date="24" type="HOLIDAY">
+            <![CDATA[Перенесённый выходной (1 января)]]>
+        </date>
+        <date year="2017" month="5" date="8" type="HOLIDAY">
+            <![CDATA[Перенесённый выходной (7 января)]]>
+        </date>
+        <date year="2017" month="11" date="6" type="HOLIDAY">
+            <![CDATA[Перенесённый выходной (4 ноября)]]>
+        </date>
+        <date year="2018" month="1" date="2" type="HOLIDAY">
+            <![CDATA[Новогодние каникулы]]>
+        </date>
+        <date year="2018" month="1" date="3" type="HOLIDAY">
+            <![CDATA[Новогодние каникулы]]>
+        </date>
+        <date year="2018" month="1" date="4" type="HOLIDAY">
+            <![CDATA[Новогодние каникулы]]>
+        </date>
+        <date year="2018" month="1" date="5" type="HOLIDAY">
+            <![CDATA[Новогодние каникулы]]>
+        </date>
+        <date year="2018" month="3" date="9" type="HOLIDAY">
+            <![CDATA[Перенесённый выходной (с 6 января)]]>
+        </date>
+        <date year="2018" month="4" date="28" type="WORKING_DAY">
+            <![CDATA[Рабочий день взамен 30 апреля]]>
+        </date>
+        <date year="2018" month="4" date="30" type="HOLIDAY">
+            <![CDATA[Перенесённый выходной (с 28 апреля)]]>
+        </date>
+        <date year="2018" month="5" date="2" type="HOLIDAY">
+            <![CDATA[Перенесённый выходной (с 7 января)]]>
+        </date>
+        <date year="2018" month="6" date="9" type="WORKING_DAY">
+            <![CDATA[Рабочий день взамен 11 июня]]>
+        </date>
+        <date year="2018" month="6" date="11" type="HOLIDAY">
+            <![CDATA[Перенесённый выходной (с 9 июня)]]>
+        </date>
+        <date year="2018" month="12" date="29" type="WORKING_DAY">
+            <![CDATA[Рабочий день взамен 31 декабря]]>
+        </date>
+        <date year="2018" month="12" date="31" type="HOLIDAY">
+            <![CDATA[Перенесённый выходной (с 29 декабря)]]>
+        </date>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="2" name="Начало" color="#ff0000" meeting="true" start="2022-09-01" duration="0" complete="0" thirdDate="2022-09-13" thirdDate-constraint="0" expand="true">
+            <depend id="7" type="2" difference="0" hardness="Strong"/>
+            <depend id="8" type="2" difference="0" hardness="Strong"/>
+            <depend id="14" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="7" name="Глава 1" color="#000000" meeting="false" project="true" start="2022-09-01" duration="36" complete="100" thirdDate="2022-09-01" thirdDate-constraint="0" expand="true">
+            <depend id="11" type="1" difference="0" hardness="Strong"/>
+            <depend id="22" type="2" difference="0" hardness="Rubber"/>
+            <task id="8" name="Создание черновика" color="#8cb6ce" meeting="false" start="2022-09-01" duration="4" complete="100" thirdDate="2022-08-30" thirdDate-constraint="0" expand="true">
+                <depend id="0" type="2" difference="0" hardness="Strong"/>
+                <depend id="9" type="3" difference="0" hardness="Strong"/>
+            </task>
+            <task id="9" name="Поиск информции" color="#8cb6ce" meeting="false" start="2022-09-03" duration="2" complete="100" thirdDate="2022-09-03" thirdDate-constraint="0" priority="0" expand="true">
+                <depend id="0" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="0" name="Создание 1 главы" color="#8cb6ce" meeting="false" start="2022-09-05" duration="10" complete="100" thirdDate="2022-09-16" thirdDate-constraint="0" priority="2" expand="true">
+                <depend id="3" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="3" name="Добавление и исправление сцен" color="#8cb6ce" meeting="false" start="2022-09-15" duration="5" complete="100" thirdDate="2022-09-13" thirdDate-constraint="0" expand="true">
+                <depend id="1" type="2" difference="0" hardness="Strong"/>
+                <depend id="4" type="2" difference="0" hardness="Strong"/>
+                <depend id="5" type="2" difference="0" hardness="Strong"/>
+                <depend id="6" type="2" difference="0" hardness="Strong"/>
+                <depend id="12" type="2" difference="0" hardness="Strong"/>
+                <depend id="13" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="14" name="Обучение граммотности" color="#ffff33" meeting="false" start="2022-09-01" duration="16" complete="100" thirdDate="2022-09-01" thirdDate-constraint="0" expand="true">
+                <depend id="6" type="2" difference="0" hardness="Rubber"/>
+            </task>
+            <task id="6" name="Беттинг главы" color="#ffcc99" meeting="false" start="2022-09-20" duration="14" complete="100" thirdDate="2022-10-01" thirdDate-constraint="0" expand="true">
+                <depend id="10" type="2" difference="0" hardness="Strong"/>
+                <task id="4" name="Беттинг главы по орфографии и лексики" color="#8cb6ce" meeting="false" start="2022-09-20" duration="12" complete="100" thirdDate="2022-09-20" thirdDate-constraint="0" priority="0" expand="true">
+                    <depend id="10" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="1" name="Беттинг главы по грамматике и синтаксису" color="#8cb6ce" meeting="false" start="2022-09-20" duration="12" complete="100" thirdDate="2022-09-15" thirdDate-constraint="0" expand="true">
+                    <depend id="10" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="5" name="Беттинг главы по логике" color="#8cb6ce" meeting="false" start="2022-09-20" duration="14" complete="100" thirdDate="2022-09-20" thirdDate-constraint="0" priority="0" expand="true">
+                    <depend id="10" type="2" difference="0" hardness="Strong"/>
+                    <depend id="19" type="2" difference="0" hardness="Strong"/>
+                </task>
+            </task>
+            <task id="10" name="Выпуск главы" color="#8cb6ce" meeting="false" start="2022-10-04" duration="3" complete="100" thirdDate="2022-10-02" thirdDate-constraint="0" expand="true">
+                <depend id="20" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="20" name="Публикация" color="#3333ff" meeting="true" start="2022-10-07" duration="0" complete="0" thirdDate="2022-10-07" thirdDate-constraint="0" expand="true">
+                <depend id="18" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="11" name="Глава 2" color="#000000" meeting="false" project="true" start="2022-09-20" duration="36" complete="100" thirdDate="2022-09-20" thirdDate-constraint="0" expand="true">
+            <depend id="22" type="2" difference="0" hardness="Rubber"/>
+            <task id="12" name="Создание черновика 2 главы" color="#8cb6ce" meeting="false" start="2022-09-20" duration="11" complete="100" thirdDate="2022-09-05" thirdDate-constraint="0" expand="true">
+                <depend id="13" type="3" difference="0" hardness="Strong"/>
+                <depend id="16" type="2" difference="2" hardness="Strong"/>
+                <depend id="17" type="2" difference="2" hardness="Strong"/>
+                <depend id="19" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="13" name="Поиск информации" color="#8cb6ce" meeting="false" start="2022-09-25" duration="6" complete="100" thirdDate="2022-10-15" thirdDate-constraint="0" expand="true">
+                <depend id="16" type="2" difference="0" hardness="Strong"/>
+                <depend id="17" type="2" difference="0" hardness="Strong"/>
+                <depend id="19" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="19" name="Добавление сцен" color="#8cb6ce" meeting="false" start="2022-10-04" duration="10" complete="100" thirdDate="2022-09-26" thirdDate-constraint="0" expand="true">
+                <depend id="18" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="16" name="Создание 2 главы" color="#8cb6ce" meeting="false" start="2022-10-03" duration="20" complete="100" thirdDate="2022-09-12" thirdDate-constraint="0" expand="true">
+                <depend id="18" type="2" difference="2" hardness="Strong"/>
+            </task>
+            <task id="17" name="Беттинг главы" color="#ffcc99" meeting="false" start="2022-10-03" duration="8" complete="100" thirdDate="2022-09-12" thirdDate-constraint="0" expand="true">
+                <depend id="18" type="2" difference="2" hardness="Strong"/>
+            </task>
+            <task id="18" name="Выпуск главы" color="#8cb6ce" meeting="false" start="2022-10-25" duration="1" complete="100" thirdDate="2022-10-19" thirdDate-constraint="0" expand="true">
+                <depend id="21" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="21" name="Публикация" color="#3333ff" meeting="true" start="2022-10-26" duration="0" complete="84" thirdDate="2022-09-19" thirdDate-constraint="0" expand="true">
+                <depend id="22" type="2" difference="5" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="22" name="Издание книги" color="#000000" meeting="true" start="2022-10-31" duration="0" complete="0" thirdDate="2022-10-16" thirdDate-constraint="0" expand="true"/>
+    </tasks>
+    <resources>
+        <resource id="0" name="Автор" function="Default:1" contacts="" phone="">
+            <rate name="standard" value="1"/>
+        </resource>
+        <resource id="1" name="Соавтор" function="SoftwareDevelopment:5" contacts="" phone="">
+            <rate name="standard" value="1"/>
+        </resource>
+        <resource id="2" name="Бета_СиГ" function="SoftwareDevelopment:6" contacts="" phone="">
+            <rate name="standard" value="0.5"/>
+        </resource>
+        <resource id="3" name="Бета_ОиЛ" function="SoftwareDevelopment:7" contacts="" phone="">
+            <rate name="standard" value="0.5"/>
+        </resource>
+    </resources>
+    <allocations>
+        <allocation task-id="0" resource-id="0" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="8" resource-id="0" function="SoftwareDevelopment:2" responsible="false" load="90.0"/>
+        <allocation task-id="10" resource-id="0" function="Default:0" responsible="false" load="5.0"/>
+        <allocation task-id="3" resource-id="0" function="Default:1" responsible="true" load="20.0"/>
+        <allocation task-id="9" resource-id="0" function="SoftwareDevelopment:2" responsible="false" load="10.0"/>
+        <allocation task-id="12" resource-id="0" function="SoftwareDevelopment:2" responsible="false" load="80.0"/>
+        <allocation task-id="13" resource-id="0" function="SoftwareDevelopment:3" responsible="false" load="20.0"/>
+        <allocation task-id="16" resource-id="0" function="SoftwareDevelopment:2" responsible="false" load="80.0"/>
+        <allocation task-id="18" resource-id="0" function="SoftwareDevelopment:7" responsible="false" load="100.0"/>
+        <allocation task-id="19" resource-id="0" function="Default:1" responsible="true" load="20.0"/>
+        <allocation task-id="3" resource-id="1" function="SoftwareDevelopment:5" responsible="false" load="100.0"/>
+        <allocation task-id="9" resource-id="1" function="SoftwareDevelopment:3" responsible="false" load="100.0"/>
+        <allocation task-id="5" resource-id="1" function="SoftwareDevelopment:5" responsible="false" load="70.0"/>
+        <allocation task-id="19" resource-id="1" function="SoftwareDevelopment:5" responsible="false" load="100.0"/>
+        <allocation task-id="1" resource-id="2" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="14" resource-id="2" function="SoftwareDevelopment:10" responsible="false" load="50.0"/>
+        <allocation task-id="17" resource-id="2" function="SoftwareDevelopment:6" responsible="false" load="100.0"/>
+        <allocation task-id="4" resource-id="3" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="14" resource-id="3" function="SoftwareDevelopment:10" responsible="false" load="50.0"/>
+        <allocation task-id="17" resource-id="3" function="SoftwareDevelopment:6" responsible="false" load="100.0"/>
+    </allocations>
+    <vacations>
+        <vacation start="2022-10-14" end="2022-10-22" resourceid="0"/>
+        <vacation start="2022-10-11" end="2022-10-22" resourceid="1"/>
+        <vacation start="2022-10-02" end="2022-10-03" resourceid="2"/>
+        <vacation start="2022-10-11" end="2022-10-22" resourceid="2"/>
+        <vacation start="2022-10-02" end="2022-10-05" resourceid="3"/>
+        <vacation start="2022-10-11" end="2022-10-22" resourceid="3"/>
+    </vacations>
+    <previous>
+        <previous-tasks name="Глава1">
+            <previous-task id="2" start="2022-09-01" duration="0" meeting="true" super="false"/>
+            <previous-task id="7" start="2022-09-01" duration="33" meeting="false" super="true"/>
+            <previous-task id="8" start="2022-09-01" duration="4" meeting="false" super="false"/>
+            <previous-task id="9" start="2022-09-03" duration="2" meeting="false" super="false"/>
+            <previous-task id="0" start="2022-09-05" duration="10" meeting="false" super="false"/>
+            <previous-task id="3" start="2022-09-15" duration="5" meeting="false" super="false"/>
+            <previous-task id="6" start="2022-09-20" duration="13" meeting="false" super="true"/>
+            <previous-task id="4" start="2022-09-20" duration="11" meeting="false" super="false"/>
+            <previous-task id="1" start="2022-09-20" duration="11" meeting="false" super="false"/>
+            <previous-task id="5" start="2022-09-20" duration="13" meeting="false" super="false"/>
+            <previous-task id="10" start="2022-10-03" duration="1" meeting="false" super="false"/>
+        </previous-tasks>
+        <previous-tasks name="Глава2">
+            <previous-task id="2" start="2022-09-01" duration="0" meeting="true" super="false"/>
+            <previous-task id="7" start="2022-09-01" duration="36" meeting="false" super="true"/>
+            <previous-task id="8" start="2022-09-01" duration="4" meeting="false" super="false"/>
+            <previous-task id="9" start="2022-09-03" duration="2" meeting="false" super="false"/>
+            <previous-task id="0" start="2022-09-05" duration="10" meeting="false" super="false"/>
+            <previous-task id="3" start="2022-09-15" duration="5" meeting="false" super="false"/>
+            <previous-task id="14" start="2022-09-01" duration="16" meeting="false" super="false"/>
+            <previous-task id="6" start="2022-09-20" duration="14" meeting="false" super="true"/>
+            <previous-task id="4" start="2022-09-20" duration="12" meeting="false" super="false"/>
+            <previous-task id="1" start="2022-09-20" duration="12" meeting="false" super="false"/>
+            <previous-task id="5" start="2022-09-20" duration="14" meeting="false" super="false"/>
+            <previous-task id="10" start="2022-10-04" duration="3" meeting="false" super="false"/>
+            <previous-task id="11" start="2022-09-20" duration="34" meeting="false" super="true"/>
+            <previous-task id="12" start="2022-09-20" duration="17" meeting="false" super="false"/>
+            <previous-task id="13" start="2022-09-27" duration="10" meeting="false" super="false"/>
+            <previous-task id="16" start="2022-10-09" duration="10" meeting="false" super="false"/>
+            <previous-task id="17" start="2022-10-09" duration="10" meeting="false" super="false"/>
+            <previous-task id="18" start="2022-10-21" duration="3" meeting="false" super="false"/>
+        </previous-tasks>
+    </previous>
+    <roles roleset-name="Default"/>
+    <roles roleset-name="SoftwareDevelopment"/>
+    <roles>
+        <role id="1" name=""/>
+    </roles>
+</project>
