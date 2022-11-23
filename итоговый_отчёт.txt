@@ -22,4 +22,6 @@ git add .
 git checkout
 git branch
 git checkout main
+git tag 228
+git checkout 228 итоговый_отчёт.txt
 
